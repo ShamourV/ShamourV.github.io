@@ -1,0 +1,9 @@
+
+body{
+ background-color: #f3d2c1
+}
+nav > a{
+    background-color: bisque;
+    padding: 8px 12px;
+    text-decoration: none;
+}
