@@ -1,9 +1,15 @@
 
 body{
- background-color: #f3d2c1
+ background-color: rgb(218, 189, 134);
 }
 nav > a{
-    background-color: bisque;
-    padding: 8px 12px;
+    background-color: rgb(212, 176, 125);
+     padding: 8px 12px;
     text-decoration: none;
+}
+#Name{
+ 
+}
+body{
+
 }
