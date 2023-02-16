@@ -1,4 +1,7 @@
 
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
 body{
     background-color: rgb(219, 112, 104);
    }
@@ -6,6 +9,27 @@ body{
        background-color: #e7724e;
         padding: 8px 12px;
        text-decoration: none;
+   }
+   input, textarea{
+    background-color: rgb(239, 137, 96);
+    border-radius: 12px;
+    color:whitesmoke;
+    padding: 8px 12px 10px 18px;
+    /* border: 2px red solid; */
+    border-width: 0 0 5px 0;
+    border-color:indianred
+   }
+   input:focus, textarea:focus{
+    background-color: indianred
+   }
+   input[type=submit], input[type=reset]{
+background-color: indianred;
+   }
+   input[type=submit]:hover{
+    background-color: #e7724e;
+   }
+   input[type=reset]:hover{
+    background-color: #e7724e;
    }
    #Name{
     

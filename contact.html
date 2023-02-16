@@ -13,12 +13,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shamour Vassell</title>
    <h1>Contact me</h1>
+   <p class="social-media"></p>
 </head>
 <body>
     <p><b>Use this form to contact me.</b></p>
-<form>
+    <form
+    action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail"
+    method="post"
+   >
    <label>Email</label>
-   
+
+
     <input placeholder="example@gmail.com"> 
     <br>
 <lable>Name</lable>
@@ -32,8 +37,7 @@
 <br>
 <textarea name="Comments"></textarea>
 <br>
-<input type="submit">
-<input type="reset">
+
 <input name="send-to" value="svassell2@brooklynsteamcenter.org" hidden>
 <br>
 <input type="checkbox" name="terms">
@@ -43,7 +47,7 @@
 <input type="radio" name="contactTypes" value="phone">
 <lable>Phone</lable> 
 <br>
-<input type="radio" name="contact contactTypes" value="email">
+<input type="radio" name="contactTypes" value="email">
 <label>Email</label>
 <br>
 <input type="radio" name="contactTypes" value="linkein">
