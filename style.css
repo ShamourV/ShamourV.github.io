@@ -37,3 +37,18 @@ background-color: indianred;
    body{
    
    }
+   nav{
+    background-color: #e7724e;
+    padding: 8px;
+    
+   }
+  
+@media screen and (max-width: 480px) {
+    body {
+        background-color: beige;
+    }
+    #A_picture_of_Shamour_and_his_zesty_friend {
+      width: 30%;
+    }
+    /* mobile-phone */
+}
