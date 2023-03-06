@@ -35,7 +35,7 @@ background-color: indianred;
     
    }
    body{
-   
+    text-align: center;
    }
    nav{
     background-color: #e7724e;
@@ -45,7 +45,7 @@ background-color: indianred;
   
 @media screen and (max-width: 480px) {
     body {
-        background-color: beige;
+        background-color: indianred
     }
     #A_picture_of_Shamour_and_his_zesty_friend {
       width: 30%;
