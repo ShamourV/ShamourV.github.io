@@ -37,10 +37,15 @@ background-color: indianred;
    body{
     text-align: center;
    }
-   nav{
+   nav {
     background-color: #e7724e;
     padding: 8px;
     
+   }
+
+   nav a
+   {
+    color: black;
    }
    .ImageAlign{
     text-align: center;
